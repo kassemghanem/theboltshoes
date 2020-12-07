@@ -2,11 +2,11 @@
 <head>
     <title>THE BOLT SHOES</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://kassemghanem.github.io/theboltshoes/.css">
-    <link href="https://kassemghanem.github.io/theboltshoes/.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script src="file:///D:/shoes%20website/index.html"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 <body>
 <section id="banner">
@@ -239,6 +239,10 @@ client
       .getProfile()
       .then(console.log)
   })
+
+  fetch('https://jsonplaceholder.typicode.com/users')
+  .then(response => response.json())
+  .then(json => console.log(json))
 
 </script>
 
